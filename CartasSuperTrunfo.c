@@ -7,14 +7,25 @@ int main() {
     char estado;
     char codigo[4];
     char nomecidade[50];
-    int populacao;
-    float area;
-    float pib;
-    int pontosturisticos;
+    int populacao, pontosturisticos;
+    float area, pib;
 
-// Declaração da primeira carta
+// Dados da primeira carta
     printf("Carta 1: \n");
-    printf("Estado (A-H): \n");
+    printf("Estado (A-H): ");
+    scanf("%s", &estado);
+    printf("Código (ex: A01): ");
+    scanf("%s", &codigo);
+    printf("Nome da Cidade: ");
+    scanf("%s", &nomecidade);
+    printf("População: ");
+    scanf("%d", &populacao);
+    printf("Área (em km²): ");
+    scanf("%f", &area);
+    printf("PIB: ");
+    scanf("%f", &pib);
+    printf("Número de Pontos Turísticos: ");
+    scanf("%d", &pontosturisticos);
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
 //Teste larissa
