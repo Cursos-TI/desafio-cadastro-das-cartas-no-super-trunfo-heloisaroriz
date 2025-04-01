@@ -4,7 +4,7 @@
 // Tema 1 - Cadastro das Cartas
 int main() {
     printf("Desafio Super Trunfo - Países\n");
-    char estado1, estado2;
+    char estado1[50], estado2[50];
     char codigo1[50], codigo2[50];
     char nomecidade1[50], nomecidade2[50];
     int populacao1, populacao2, pontosturisticos1, pontosturisticos2;
@@ -16,13 +16,13 @@ int main() {
 // Dados da primeira carta
     printf("\n----------Carta 1----------\n\n");
     printf("Represente o nome do estado 1 com uma letra de A até H: \n");
-    scanf("%s", &estado1);
+    scanf("%s", estado1);
 
     printf("Digite o código da carta 1 (ex: A01): \n");
-    scanf("%s", &codigo1);
+    scanf("%s", codigo1);
 
     printf("Digite o nome da cidade 1: \n");
-    scanf("%s", &nomecidade1);
+    scanf("%s", nomecidade1);
 
     printf("Digite a população da cidade 1: \n");
     scanf("%d", &populacao1);
@@ -39,13 +39,13 @@ int main() {
 //Dados da segunda carta
     printf("\n----------Carta 2----------\n\n");
     printf("Represente o nome do estado 2 com uma letra de A até H: \n");
-    scanf("%s", &estado2);
+    scanf("%s", estado2);
 
     printf("Digite o código da carta 2 (ex: A02): \n");
-    scanf("%s", &codigo2);
+    scanf("%s", codigo2);
 
     printf("Digite o nome da cidade 2: \n");
-    scanf("%s", &nomecidade2);
+    scanf("%s", nomecidade2);
 
     printf("Digite a população da cidade 2: \n");
     scanf("%d", &populacao2);
@@ -61,21 +61,21 @@ int main() {
 
     printf("\n----------Exibindo os valores das cartas---------- \n\n"); 
     printf("Carta 1: \n");
-    printf("Estado: %s", estado1);
-    printf("Código: %s", codigo1);
-    printf("Nome da Cidade: %s", nomecidade1);
-    printf("População: %d", populacao1);
-    printf("Área: %f", area1);
-    printf("PIB: %f", pib1);
-    printf("Número de Pontos Turísticos: %d", pontosturisticos1);
+    printf("Estado: %s \n", estado1);
+    printf("Código: %s \n", codigo1);
+    printf("Nome da Cidade: %s \n", nomecidade1);
+    printf("População: %d \n", populacao1);
+    printf("Área: %f \n", area1);
+    printf("PIB: %f \n", pib1);
+    printf("Número de Pontos Turísticos: %d \n", pontosturisticos1);
 
     printf("Carta 2: \n");
-    printf("Código: %s", codigo2);
-    printf("Nome da Cidade: %s", nomecidade2);
-    printf("População: %d", populacao2);
-    printf("Área: %f", area2);
-    printf("PIB: %f", pib2);
-    printf("Número de Pontos Turísticos: %d", pontosturisticos2);
+    printf("Código: %s \n", codigo2);
+    printf("Nome da Cidade: %s \n", nomecidade2);
+    printf("População: %d \n", populacao2);
+    printf("Área: %f \n", area2);
+    printf("PIB: %f \n", pib2);
+    printf("Número de Pontos Turísticos: %d \n", pontosturisticos2);
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
 //Teste larissa
