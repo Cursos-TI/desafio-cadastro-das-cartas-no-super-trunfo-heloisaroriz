@@ -53,7 +53,7 @@ int main() {
     printf("Digite a área da cidade 2 (em km²): \n");
     scanf("%f", &area2);
 
-    printf("Digite o PIB da ciade 2: \n");
+    printf("Digite o PIB da cidade 2: \n");
     scanf("%f", &pib2);
 
     printf("Digite o número de Pontos Turísticos da cidade 2: \n");
