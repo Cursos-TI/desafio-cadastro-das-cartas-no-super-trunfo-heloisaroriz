@@ -51,7 +51,7 @@ int main() {
     printf("Digite a população da cidade 2: \n");
     scanf("%d", &populacao2);
 
-    pprintf("Digite a área da cidade 2 (em km²): \n");
+    printf("Digite a área da cidade 2 (em km²): \n");
     scanf("%f", &area2);
 
     printf("Digite o PIB da cidade 2: \n");
