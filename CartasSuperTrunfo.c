@@ -40,7 +40,7 @@ int main() {
     scanf("%d", &pontosturisticos1);
     
 //Calculando Densidade e Pib per Capita da primeira carta
-    densidade1 =  populacao1 / area1;
+    densidade1 =  populacao1 / (float)area1;
     pibcapita1 = (pib1 * 1000000000) / (float)populacao1; 
 
 //Dados da segunda carta
@@ -67,7 +67,7 @@ int main() {
     scanf("%d", &pontosturisticos2);
     
 //Calculando Densidade e Pib per Capita da segunda carta
-    densidade2 = populacao2 / area2;
+    densidade2 = populacao2 / (float)area2;
     pibcapita2 = (pib2 * 1000000000) / (float)populacao2; 
 
     printf("\n----------Exibindo os valores das cartas---------- \n\n"); 
